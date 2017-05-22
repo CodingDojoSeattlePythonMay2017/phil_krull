@@ -1,0 +1,26 @@
+h1 {
+  color: red;
+}
+.buildings{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 175px;
+}
+.buildings, .activities{
+  border: 1px solid black;
+}
+input[type='submit']{
+  margin-bottom: 20px;
+}
+.activities{
+  width: 720px;
+  height: 150px;
+  overflow: scroll;
+}
+.lost{
+  color: red;
+}
+.gain{
+  color: green;
+}
